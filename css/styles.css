@@ -608,11 +608,72 @@ img {
   margin-bottom: 100px;
 }
 
+.newsletter-position {
+  width: 570px;
+  height: 86px;
+  /* background-color: red; */
+  position: absolute;
+  right: 15px;
+  top: 0;
+  margin-top: 72px;
+}
+
+.newsletter {
+  font-size: 14px;
+  line-height: 1;
+  color: var(--white-clr);
+  margin-bottom: 20px;
+}
+
+.newsletter-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding: 15px;
+  background:var(--black1-clr);
+  color:var(--white-clr);
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 28px;
+  top:12px;
+  fill:var(--white-clr);
+}
+
+.newsletter-button {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  background: var(--blue-clr);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--white-clr);
+  border: none;
+  letter-spacing: 0.06em;
+  text-align: left;
+  padding-left: 42px;
+  cursor:pointer;
+}
+
 .footer-position {
   display: flex;
   align-items: center;
   gap: 70px;
   justify-content: flex-start;
+  position: relative;
 }
 
 .footer-socials-position {
