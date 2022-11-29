@@ -226,7 +226,7 @@ body {
   border: 0;
   cursor: pointer;
   padding: 6px 22px;
-  transition-property: color;
+  transition-property: color, background-color;
   transition-duration: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -506,6 +506,12 @@ img {
   fill: var(--socials);
 }
 
+.close-icon {
+  width: 18px;
+  height: 18px;
+  fill: var(--black-clr);
+}
+
 .social-media-icons1 {
   width: 20px;
   height: 20px;
@@ -660,6 +666,9 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--white-clr);
   margin-left: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .is-hidden {
