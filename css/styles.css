@@ -721,6 +721,7 @@ img {
   display: block;
   border: 0;
   outline: 0;
+  width: 100%;
 }
 
 .modal-icon {
@@ -731,6 +732,12 @@ img {
 
 .legal-link {
   color:var(--blue-clr);
+}
+
+.checkbox {
+  /* background:red; */
+  position:relative;
+  cursor:pointer;
 }
 
 .modal-fieldset {
@@ -748,7 +755,11 @@ img {
 }
 
 .legal-input {
-  margin-left:12px;
+  position:absolute;
+  cursor:pointer;
+  width:0;
+  height:0;
+  opacity:0;
 }
 
 .legal-btn {
