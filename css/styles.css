@@ -724,24 +724,6 @@ img {
   width: 100%;
 }
 
-.checkmark {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  /* background-color: red; */
-  left: 0;
-}
-
-.checkmark:after {
-  content: url(../images/symbol-defs.svg#check-icon)
-  width:16px;
-  height:16px;
-}
-
-.checkbox input:checked .checkmark:after {
-
-}
-
 .modal-icon {
   width: 18px;
   height: 18px;
@@ -753,9 +735,21 @@ img {
 }
 
 .checkbox {
-  /* background:red; */
   position: relative;
+  /* background:red; */
   cursor: pointer;
+}
+
+.checkbox-icon {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: -0px;
+  top: -2px;
+}
+
+.legal-input:not(:checked) + .checkbox-icon {
+  visibility: hidden;
 }
 
 .modal-fieldset {
@@ -773,11 +767,9 @@ img {
 }
 
 .legal-input {
-  position: absolute;
   cursor: pointer;
-  width: 0;
-  height: 0;
-  opacity: 0;
+  width: 15px;
+  height: 15px;
 }
 
 .legal-btn {
