@@ -752,6 +752,10 @@ img {
   visibility: hidden;
 }
 
+.legal-input:checked {
+opacity:0;
+}
+
 .modal-fieldset {
   display: flex;
   position: relative;
